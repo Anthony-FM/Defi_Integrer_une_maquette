@@ -14,3 +14,59 @@ section
     justify-content: center;
     align-content: center;
 }
+
+#PremierArticle img
+{
+    width: 199px;
+    height: 59px;
+}
+
+#PremierArticle p + h1
+{
+    text-align: center;
+}
+
+#PremierArticle h1
+{
+    color: white;
+    width: 307px;
+    height: 20px;
+    font-size: 30px;
+    margin: 0 auto;
+    font-weight: 400;
+}
+
+#SecondArticle
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-content: center;
+}
+
+#intro
+{
+    width: 806px;
+    height: 105px;
+    color: #575757;
+    text-align: center;
+    font-size: 30px;
+    margin: 30px auto;
+}
+
+#container1
+{
+    display: flex;
+    justify-content: space-between;
+    width: 806px;
+    margin: 30px auto;
+}
+
+.picto
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 281px;
+    height: 182px;
+}
