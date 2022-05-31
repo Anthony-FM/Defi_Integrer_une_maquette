@@ -2,13 +2,23 @@ header
 {
     display: flex;
     justify-content: space-between;
+    align-content: center;
     height: 120px;
+}
+
+#logo img
+{
+    width: 356px;
+    height: 109px;
 }
 
 nav
 {
     width: 235px;
     height: 110px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }
 
 nav ul
@@ -16,4 +26,20 @@ nav ul
     display: flex;
     justify-content: flex-end;
     align-content: center;    
+    height: 26px;
+    margin: auto;
+}
+
+nav li
+{
+    width: 88px;
+    height: 26px;
+    margin-right: 3px;
+    list-style-type: none;
+}
+
+nav a
+{
+    text-decoration: none;
+    color: black;
 }
