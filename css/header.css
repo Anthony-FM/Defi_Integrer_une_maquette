@@ -6,6 +6,11 @@ header
     height: 120px;
 }
 
+#logo
+{
+    margin: auto 0;
+}
+
 #logo img
 {
     width: 356px;
