@@ -1,0 +1,15 @@
+section
+{
+    display: flex;
+    flex-direction: column;
+
+}
+
+#PremierArticle
+{
+    background-image: url(../Images/backgroung_image.jpg);
+    height: 456px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
