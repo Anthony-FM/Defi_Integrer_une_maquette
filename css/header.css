@@ -1,0 +1,19 @@
+header
+{
+    display: flex;
+    justify-content: space-between;
+    height: 120px;
+}
+
+nav
+{
+    width: 235px;
+    height: 110px;
+}
+
+nav ul
+{
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;    
+}
