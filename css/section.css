@@ -10,6 +10,7 @@ section
     background-image: url(../Images/backgroung_image.jpg);
     height: 456px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-content: center;
 }
