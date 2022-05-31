@@ -2,6 +2,8 @@ section
 {
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
+    height: 1004px;
 
 }
 
@@ -12,7 +14,7 @@ section
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-content: center;
+    align-items: center;
 }
 
 #PremierArticle img
@@ -32,7 +34,6 @@ section
     width: 307px;
     height: 20px;
     font-size: 30px;
-    margin: 0 auto;
     font-weight: 400;
 }
 
@@ -40,8 +41,9 @@ section
 {
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
-    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    height: 541px;
 }
 
 #intro
@@ -51,22 +53,61 @@ section
     color: #575757;
     text-align: center;
     font-size: 30px;
-    margin: 30px auto;
+    margin-top: 30px;
 }
 
 #container1
 {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     width: 806px;
-    margin: 30px auto;
+    height: 197PX;
+    
 }
 
 .picto
 {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
     width: 281px;
-    height: 182px;
+    height: 186px;
+}
+
+.picto div
+{
+    text-align: center;
+}
+
+.picto h1
+{
+    text-align: center;
+    height: 32px;
+}
+
+.picto p
+{
+    width: 232px;
+    height: 66px;
+    text-align: center;
+    font-size: 12px;
+    margin: auto;
+}
+
+
+
+#container2
+{
+    width: 605px;
+    height: 117px;
+
+}
+
+#container2 p, #container2 cite
+{
+    color: #575757;
+    font-size: 18px;
+    text-align: center;
 }
