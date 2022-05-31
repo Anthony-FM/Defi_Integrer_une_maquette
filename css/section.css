@@ -21,7 +21,7 @@ section
     height: 59px;
 }
 
-#PremierArticle p + h1
+#PremierArticle p, #PremierArcticle h1
 {
     text-align: center;
 }
