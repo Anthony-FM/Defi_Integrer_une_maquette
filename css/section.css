@@ -105,9 +105,16 @@ section
 
 }
 
-#container2 p, #container2 cite
+#container2 p
 {
     color: #575757;
     font-size: 18px;
+    text-align: center;
+}
+
+#container2 cite
+{
+    color: #575757;
+    font-size: 16px;
     text-align: center;
 }
