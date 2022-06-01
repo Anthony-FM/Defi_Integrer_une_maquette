@@ -9,7 +9,7 @@ section
 
 #PremierArticle
 {
-    background-image: url(../Images/backgroung_image.jpg);
+    background-image: url(Images/backgroung_image.jpg);
     height: 456px;
     display: flex;
     flex-direction: column;
